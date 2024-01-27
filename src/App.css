@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 93vh;
+  align-self: center;
+  overflow-y: hidden;
+  background: url("./assets/images/chatbg.png") #e5ddd5;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 0px;
+}
+.screen::-webkit-scrollbar {
+  width: 0px;
+}
+.answers-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* height: calc(100% - 120px); */
+  overflow-y: scroll;
+}
+.answers-wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+.input-section {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+.questions-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+@media (min-width: 768.1px) {
+  .App {
+    width: 67.5vh;
+    height: 90vh;
+    margin: 5vh auto;
+  }
+  .screen::-webkit-scrollbar {
+    display: none;
+  }
+  .answers-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .answers-wrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
