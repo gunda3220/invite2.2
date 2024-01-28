@@ -30,8 +30,9 @@ const Answers = ({ message, setScrollUpdate, setQuestionMode }) => {
         return (
           answerState > index && (
             <Answer
+              message={message}
               text={answer}
-              type={message.type}
+              index={index}
               key={index}
               answerState={answerState}
               setAnswerState={setAnswerState}

@@ -113,7 +113,7 @@ export const answerData = {
   couple: {
     type: "answer",
     text: [
-      "Well this is us. Yeah we know we dont have a fancy photo. But its us when we first started dating.",
+      "Well this is us. Yeah we know we dont have a fancy photo. But it's us when we first started dating.",
       coupleImg,
     ],
     nextQuestions: ["groom", "bride"],
@@ -131,7 +131,7 @@ export const answerData = {
       "This is me Rashmi",
       bride,
       "I have done my Bachelors in Enginerring in PESIT Banglore",
-      "I am working as a Consultant in Accenture.",
+      "I am working as Data Analyst at Accenture.",
       "And if you are any of Rakesh's friends here's my insta profile.",
       "https://www.instagram.com/_rashminayak_?igsh=MzRlODBiNWFlZA==",
       "Lets know each other better, say hi on any of my social profiles.",
@@ -144,7 +144,7 @@ export const answerData = {
     text: [
       "This is me Rashmi",
       "I have done by Bachelors in Enginerring in PESIT Banglore",
-      "I am working as a Consultant in Accenture.",
+      "I am working as Data Analyst at Accenture.",
       bride,
       "And if you are any of Rakesh's friends here's my insta profile.",
       "https://www.instagram.com/_rashminayak_?igsh=MzRlODBiNWFlZA==",
