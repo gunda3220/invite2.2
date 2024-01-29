@@ -28,7 +28,7 @@ export const questionData = [
   {
     state: "couple",
     type: "question",
-    text: ["Sure, but let me first see the couple"],
+    text: ["Sure, but first let me see the couple"],
   },
 
   {
@@ -96,7 +96,7 @@ export const answerData = {
       "We are getting married on 26th of February in a close family and friends function in RSB sabha bhavana, Manipal.",
       "Dont worry I'm sending you the location.",
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.040769534485!2d74.7878782!3d13.347740100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbca4aeeb4708e7%3A0xbed5954db2e572b9!2sRSB%20Sabha%20Bhavan%2C%20opposite%20BSNL%20Office%2C%20Eshwar%20Nagar%2C%20Manipal%2C%20Karnataka%20576104!5e0!3m2!1sen!2sin!4v1706342799607!5m2!1sen!2sin",
-      "also since its on a Monday, do plan to be there for the weekend and explore my city, as Manipal has both beach and the western ghats within the span of 100kms.",
+      "also since it's a Monday, do plan to be there for the weekend and explore my city, as Manipal has both beach and the western ghats within a span of 100kms.",
     ],
     nextQuestions: ["what's around", "couple"],
   },
@@ -130,7 +130,7 @@ export const answerData = {
       "You know what ill still take you to Rashmis profile :p",
       "This is me Rashmi",
       bride,
-      "I have done my Bachelors in Enginerring in PESIT Banglore",
+      "I have done my Bachelors in Engineering in PESIT Banglore",
       "I am working as Data Analyst at Accenture.",
       "And if you are any of Rakesh's friends here's my insta profile.",
       "https://www.instagram.com/_rashminayak_?igsh=MzRlODBiNWFlZA==",
@@ -143,7 +143,7 @@ export const answerData = {
     type: "answer",
     text: [
       "This is me Rashmi",
-      "I have done by Bachelors in Enginerring in PESIT Banglore",
+      "I have done by Bachelors in Engineering in PESIT Banglore",
       "I am working as Data Analyst at Accenture.",
       bride,
       "And if you are any of Rakesh's friends here's my insta profile.",

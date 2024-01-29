@@ -21,6 +21,8 @@ function App() {
 
   const messagesEndRef = useRef(null);
 
+  const answerWrapper = useRef(null);
+
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({
       behavior: "smooth",
@@ -29,7 +31,12 @@ function App() {
   };
 
   useEffect(() => {
-    scrollToBottom();
+    if (
+      answerWrapper.current.scrollHeight - answerWrapper.current.scrollTop <
+      answerWrapper.current.clientHeight * 2
+    ) {
+      scrollToBottom();
+    }
   }, [scrollUpdate]);
 
   useEffect(() => {
@@ -53,16 +60,28 @@ function App() {
       const inputHeight = document.querySelector(".input-section").offsetHeight;
       const screenHeight = window.innerHeight;
       let answerSectionHeight = screenHeight - inputHeight - 15;
-      document.querySelector(".answers-wrapper").style.height =
-        answerSectionHeight + "px";
-      scrollToBottom();
+
+      answerWrapper.current.style.height = answerSectionHeight + "px";
+      if (
+        !questionMode ||
+        answerWrapper.current.scrollHeight - answerWrapper.current.scrollTop <
+          answerWrapper.current.clientHeight * 2
+      ) {
+        scrollToBottom();
+      }
     }, 100);
   }, [questionMode]);
+
+  const displayScroll = () => {};
 
   return (
     <div className="App">
       <div className="screen">
-        <div className="answers-wrapper">
+        <div
+          className="answers-wrapper"
+          ref={answerWrapper}
+          onScroll={displayScroll}
+        >
           {currentMessages.map((message, index) => (
             <Answers
               message={message}
