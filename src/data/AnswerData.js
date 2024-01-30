@@ -13,7 +13,7 @@ export const questionData = [
   {
     state: "can't believe",
     type: "question",
-    text: ["Nuhhh, I can't beleive it"],
+    text: ["Nuhhh, I can't believe it"],
   },
   {
     state: "where",
