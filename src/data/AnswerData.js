@@ -64,7 +64,7 @@ export const answerData = {
     text: [
       "Hello! 👋",
       "This is Rakesh and Rashmi (or rather the virtual version of us)",
-      "Not to praise myself or anything...",
+      "Not to praise ourselves or anything...",
       "but we have hired a personal bot (who else does that?)",
       "just to invite you for something special, for a special day",
     ],
@@ -74,7 +74,7 @@ export const answerData = {
     type: "answer",
     text: [
       "Drumroll, please... We're getting hitched! Yep, you heard it right! Wedding bells and all that jazz!! 🔔 💍",
-      "So, you better clear your schedule because you're oficially invited to witness the greatest day of our life! Save the date:26th Feb 2024. Let the countdown begin! 🎊",
+      "So, you better clear your schedule because you're oficially invited to witness the greatest day of our lives! Save the date:26th Feb 2024. Let the countdown begin! 🎊",
     ],
     nextQuestions: ["can't believe", "where"],
   },
