@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Question.css";
 import { answerData } from "../data/AnswerData";
-import { questionData } from "../data/AnswerData";
 
 const Questions = ({ question, setQuestionMode, setCurrentMessages }) => {
   const insertNextAnswer = () => {

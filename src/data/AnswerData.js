@@ -106,7 +106,7 @@ export const answerData = {
       "I'm keeping a 3 day itinerary. Hope that works. The third day is the wedding, so keeping it light on that day, Because heavy food :p",
       "Day 1 24th Feb, Saturday : (Around Manipal) <br> start at 9AM. <br> <br> First point (Shri Krishna Temple) <br> 5kms (15mins) <br> Visit The ShreeKrishna Temple, and the ashta mathas. Check out (kanakana Kindi and its beliefs) <br> Breakfast at Mithra Samaj (small and old breakfast hotel within the temple premises) <br> <br>Plan 1: Scuba Diving (which might take the rest of your day). <br> Will have to book the place in advance. So please plan accordingly <br> <br>Plan2: kayaking around the mangroves. <br> All kayaking places are around udupi and within half an hour by car. Check if they have pre booking. <br>Back by 2 <br><br> Lunch at hotel Thimappa (old hotel but locals favourite) or Machli/Bindas Bar and resturant <br><br> Sunset at Kodi Bengre beach (delta Point) if you are in for silent and calm evening or Malpe if you want the rush. <br><br> Plan 3: <br> Try fresh palm or coconut toddy. (tastes best before 11AM). <br>Lunch at any fish hotel. <br> Trip to St Mary's Island. (no hotels in the island so plan ahead).",
       "Day 2 25th Feb Sunday : (around The western ghats) <br> have breakfast and start at 10AM <br><br> First Point (koodlu Theertha Falls) <br> 50kms (1hr 40mins)  + 15mins trek. (worth the visit) <br> Visit the falls. Plan for a swim. The place is shallow enough in summers. And is filled with visitors. The water is usually very refreshing. <br> <br> Point 2: 20kms (40mins) back to Hebri for lunch by 3. <br> <br> Point 3: Varanga Jain temple. <br> <br>9kms (15mins) <br> <br>Temple inside a pond (have to go by a ferry) <br> Point 4 Attur Church or Gommata <br>Both around 25kms (40mins) <br><br> Point 5 Parashurama theme Park. <br>13kms (20mins) You can skip if you have time constraints. But its on the way enroute karkala - Manipal. <br> <br>Point 6:<br> Back to hotel before 8. Dinner",
-      "Day 3 26th Feb Monday: (please be there for the weedding) <br> Wedding is at 10:30. Followed by lunch around 1.<br><br>Point1 start after Lunch: Padubidre blue flag beach.<br>32kms (45mins)<br>Amongst the cleanest beach you'll find in Karnataka. Keeping it for monday hoping it will be less crowded.  <br>relax and chill.<br>Sunset and back",
+      "Day 3 26th Feb Monday: (please be there for the wedding) <br> Wedding is at 10:30. Followed by lunch around 1.<br><br>Point1 start after Lunch: Padubidre blue flag beach.<br>32kms (45mins)<br>Amongst the cleanest beach you'll find in Karnataka. Keeping it for monday hoping it will be less crowded.  <br>relax and chill.<br>Sunset and back",
     ],
     nextQuestions: ["booking tickets"],
   },
@@ -159,7 +159,7 @@ export const answerData = {
       "I'm keeping a 3 day itinerary. Hope that works. The third day is the wedding, so keeping it light on that day, Because heavy food :p",
       "Day 1 24th Feb, Saturday : (Around Manipal) <br> start at 9AM. <br> <br> First point (Shri Krishna Temple) <br> 5kms (15mins) <br> Visit The ShreeKrishna Temple, and the ashta mathas. Check out (kanakana Kindi and its beliefs) <br> Breakfast at Mithra Samaj (small and old breakfast hotel within the temple premises) <br> <br>Plan 1: Scuba Diving (which might take the rest of your day). <br> Will have to book the place in advance. So please plan accordingly <br> <br>Plan2: kayaking around the mangroves. <br> All kayaking places are around udupi and within half an hour by car. Check if they have pre booking. <br>Back by 2 <br><br> Lunch at hotel Thimappa (old hotel but locals favourite) or Machli/Bindas Bar and resturant <br><br> Sunset at Kodi Bengre beach (delta Point) if you are in for silent and calm evening or Malpe if you want the rush. <br><br> Plan 3: <br> Try fresh palm or coconut toddy. (tastes best before 11AM). <br>Lunch at any fish hotel. <br> Trip to St Mary's Island. (no hotels in the island so plan ahead).",
       "Day 2 25th Feb Sunday : (around The western ghats) <br> have breakfast and start at 10AM <br><br> First Point (koodlu Theertha Falls) <br> 50kms (1hr 40mins)  + 15mins trek. (worth the visit) <br> Visit the falls. Plan for a swim. The place is shallow enough in summers. And is filled with visitors. The water is usually very refreshing. <br> <br> Point 2: 20kms (40mins) back to Hebri for lunch by 3. <br> <br> Point 3: Varanga Jain temple. <br> <br>9kms (15mins) <br> <br>Temple inside a pond (have to go by a ferry) <br> Point 4 Attur Church or Gommata <br>Both around 25kms (40mins) <br><br> Point 5 Parashurama theme Park. <br>13kms (20mins) You can skip if you have time constraints. But its on the way enroute karkala - Manipal. <br> <br>Point 6:<br> Back to hotel before 8. Dinner",
-      "Day 3 26th Feb Monday: (please be there for the weedding) <br> Wedding is at 10:30. Followed by lunch around 1.<br><br>Point1 start after Lunch: Padubidre blue flag beach.<br>32kms (45mins)<br>Amongst the cleanest beach you'll find in Karnataka. Keeping it for monday hoping it will be less crowded.  <br>relax and chill.<br>Sunset and back",
+      "Day 3 26th Feb Monday: (please be there for the wedding) <br> Wedding is at 10:30. Followed by lunch around 1.<br><br>Point1 start after Lunch: Padubidre blue flag beach.<br>32kms (45mins)<br>Amongst the cleanest beach you'll find in Karnataka. Keeping it for monday hoping it will be less crowded.  <br>relax and chill.<br>Sunset and back",
     ],
     nextQuestions: ["booking tickets"],
   },
@@ -171,6 +171,17 @@ export const answerData = {
       "Here's a gracefully extended invitation for your keeping.",
       invitationVideo,
     ],
-    nextQuestions: null,
+    nextQuestions: ["contact"],
   },
+};
+
+export const contactInfo = {
+  type: "answer",
+  text: [
+    "liked talking with me? <br> Consider talking to my creators",
+    "Whatsapp at us",
+    "https://wa.me/9591401886?text=Hey,%20I'm%20interested%20in%20building%20a%20chatbot%20for%20my%20usecase",
+    "https://wa.me/9553113502?text=Hey,%20I'm%20interested%20in%20building%20a%20chatbot%20for%20my%20usecase",
+  ],
+  nextQuestions: null,
 };

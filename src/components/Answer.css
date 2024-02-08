@@ -27,10 +27,16 @@
   width: 100%;
   height: auto;
 }
+.link-answer{
+  word-wrap:break-word
+}
 .answer a{
   display:flex;
   gap:5px;
   align-items: center;
+}
+.link-answer a{
+  display:block;
 }
 .answer a svg{
   width:40px;

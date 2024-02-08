@@ -18,7 +18,11 @@ const Answer = ({
     if (text.includes("https://www.google.com/maps")) {
       textType = "location";
     } else if (urlRegex.test(text)) {
-      textType = "link";
+      if (text.includes("instagram")) {
+        textType = "instaLink";
+      } else {
+        textType = "link";
+      }
     } else if (text.includes("jpeg")) {
       textType = "image";
     } else if (text.includes("mp4")) {
@@ -29,15 +33,27 @@ const Answer = ({
     return textType;
   };
 
+  const getNum = (text) => {
+    var regex = /[\+]?\d{10}/;
+    let output = text.match(regex);
+    return output[0];
+  };
+
   const renderAnswer = () => {
     let textType = getTextType();
     if (textType === "location") {
       return <iframe src={text}></iframe>;
-    } else if (textType === "link") {
+    } else if (textType === "instaLink") {
       return (
         <a href={text} target="_blank" className="insta-link">
           <InstaIcon />
           <p>insta profile</p>
+        </a>
+      );
+    } else if (textType === "link") {
+      return (
+        <a href={text} target="_blank" className="insta-link">
+          {getNum(text)}
         </a>
       );
     } else if (textType === "image") {

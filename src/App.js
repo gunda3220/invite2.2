@@ -6,7 +6,7 @@ import sendIcon from "./assets/images/send.jpg";
 import Input from "./components/Input";
 import Question from "./components/Questions";
 import { answerData } from "./data/AnswerData";
-import { questionData } from "./data/AnswerData";
+import { questionData, contactInfo } from "./data/AnswerData";
 
 function App() {
   const [scrollUpdate, setScrollUpdate] = useState(0);
@@ -44,6 +44,9 @@ function App() {
       let nextQuestions =
         currentMessages[currentMessages.length - 1].nextQuestions;
       if (nextQuestions) {
+        if (nextQuestions[0] === "contact") {
+          setCurrentMessages((prev) => [...prev, contactInfo]);
+        }
         let questions = [];
         questionData.map((item) => {
           if (nextQuestions.includes(item.state)) {
